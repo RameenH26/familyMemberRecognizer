@@ -1,0 +1,41 @@
+.heading{
+    font-size: 19px;
+    width: 600px;
+    height: fit-content;
+    margin: 0px;
+    box-shadow: 5px 5px 5px rgb(63, 63, 63);
+}
+
+.heading_div{
+    float: none;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 5px 5px 5px gray;
+    width: 400px;
+    height: fit-content;
+}
+.heading_div2{
+    font-size: 11px;
+    width: fit-content;
+    height: fit-content;
+}
+.result_p_tag{
+    box-shadow: 5px 5px 5px grey;
+    font-size: 15px;
+}
+
+canvas{ 
+    box-shadow: 1px 1px 20px 9px green;
+    border: 5px solid white;
+     border-radius: 20px;
+}
+#gradientButton{
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+#black {
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 25px;
+}

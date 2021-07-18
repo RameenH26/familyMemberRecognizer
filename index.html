@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <title>Image Identification Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body background="https://i.pinimg.com/originals/87/6e/b8/876eb8a54fce93d586817e5b8e21ad55.png">
+  <center>
+  <h3 class="btn btn-warning heading" id="black">Realtime Face Recognition
+    <hr>
+    <center>
+      <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 heading_div" id="gradientButton">
+        This model is trained on :
+        <br>
+        <div class="btn btn-primary heading_div2">
+          Mom | Dad | Rameen With Glasses | Rameen Without Glasses
+        </div>
+      </div>
+    </center>
+  </h3>
+  <br><br>
+  <p class="btn btn-danger result_p_tag">Person : 
+    <span id="object_result_name"></span>
+  </p>
+ 
+  <p class="btn btn-success result_p_tag">Accuracy : 
+    <span id="object_accuracy_name"></span>
+  </p>
+</center>
+<script src="main.js"></script>
+</body>
+
+</html>
